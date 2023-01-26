@@ -1,0 +1,28 @@
+.comicContainer {
+    border: solid black;
+    height: 600px;
+    background-color: lightblue;
+}
+
+.row1, .row2 {
+    border: solid navy;
+    height: 45%;
+    margin: 12px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightyellow;
+}
+
+.block {
+    border: solid green;
+    width: 33.3%;
+    text-align: center;
+}
+
+.pic {
+    width: 350px;
+    height: 75%;
+}
+.punchLine {
+    font-size: 26px;
+}
