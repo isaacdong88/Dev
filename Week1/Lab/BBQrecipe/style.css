@@ -1,0 +1,38 @@
+body {
+   background-color: rgba(235, 235, 141, 0.553);
+}
+
+h1 {
+    text-align: center;
+   
+}
+
+h2 {
+    text-align: center;
+}
+
+.img1 {
+    background-image: url(https://www.bing.com/th/id/OGC.8d01b24bd92ac50bfd16c63026fbd95b?pid=1.7&rurl=https%3a%2f%2fcdn130.picsart.com%2f292234175039201.gif%3fto%3dmin%26r%3d1024&ehk=j6kfY9hcExZ%2f9GNu8PjdcNPhihbbSq6NrpaMOsPBFcQ%3d)
+}
+
+.descriptions {
+    text-align: center;
+}
+
+.wings {
+    display: flex;
+    height: 450px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.items {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.steps {
+    text-align: center;
+    list-style-position: inside;
+}

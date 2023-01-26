@@ -1,0 +1,191 @@
+body, html {
+    margin: 0;
+}
+
+.sec1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2.5vh;
+}
+
+.sec2 {
+    /* border: solid black; */
+    height: 7vh;
+    display: flex;
+}
+
+.sec3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2.5vh;
+}
+
+.sec4 {
+    border: solid black;
+    height: 90vh;
+    background-image: url("adidas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec4b {
+    position: relative;
+    left: 500px;
+    top: 300px;
+}
+
+.slogan {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    width: 510px;
+    margin-bottom: 0;
+}
+
+.description {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 510px;
+    margin-top: 10px;
+}
+
+.buttonwomen {
+    width: 180px;
+    height: 50px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.buttonmen, .buttonkid{
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.shopbutton1 {
+    text-decoration: none;
+}
+
+.shopbutton {
+    text-decoration: none;
+}
+
+
+
+.nav1 {
+    /* border: solid black; */
+    height: 7vh;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding-left: 820px;
+}
+
+.categoryb{
+    margin: 2%;
+    align-content: center;
+    font-weight: bold;
+    color: black;
+    padding-top: 35px;
+    text-decoration: none;
+}
+
+.categoryl{
+    margin: 2%;
+    align-content: center;
+    font-weight: lighter;
+    color: rgb(145, 141, 141);
+    padding-top: 35px;
+    text-decoration: none;
+}
+
+.form {
+    /* border: solid black; */
+    height: 7vh;
+    width: 45%;
+}
+
+.more {
+    /* border: solid black; */
+    height: 3.5vh;
+    margin-left: 420px;
+
+}
+
+.extra {
+    margin: 1%;
+    display: inline-block;
+    align-content: center;
+    padding-top: 3px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.search {
+    /* border: solid black; */
+    height: 3.5vh;
+}
+
+.searchbar {
+    height: 25px;
+    width: 250px;
+    background-color: rgb(230, 230, 230);
+    border-color: white;
+    margin-left: 360px;
+}
+
+.searchicon {
+    height: 25px;
+    padding-top: 1.5px;
+    right: 160px;
+    position: absolute;
+    border-radius: 5%;
+}
+
+.customer {
+    height: 25px;
+    position: absolute;
+    right: 125px;
+}
+
+.heart {
+    height: 25px;
+    position: absolute;
+    right: 87.5px;
+}
+
+.bag {
+    height: 25px;
+    position: absolute;
+    right: 50px;
+}
+
+.logo {
+    /* border: solid black; */
+    height: 7vh;
+    width: 10%;
+}
+.adidas {
+    width: 85px;
+    height: 85px;
+    margin-left: 30px;
+}
+
+.freeship {
+    padding-top: 11px;
+    margin-top: 0;
+    color: white;
+}
+
+.saleAd {
+    padding-top: 9px;
+    margin-top: 0;
+    color: white;
+}
+
+
+
