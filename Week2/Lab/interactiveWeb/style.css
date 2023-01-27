@@ -1,0 +1,13 @@
+.container {
+    border: solid black;
+    height: 250px;
+    width: 200px;
+}
+
+.person{
+    border:solid blue;
+    text-align:center;
+    margin:10px;
+    padding:3px;
+    border-radius:22px;
+}
