@@ -1,7 +1,7 @@
 let work = ['Haynes Furniture', 'Maintained and updated product data in excel programs', 'Product procurement and transfers to fulfill warehouses and stores', 'Generating performance reports for management']
 let education = ['University of Virginia', 'College of Arts and Science', 'Bachelor of Arts, Economics', '2015-2019']
 let skill = ['Javascript', 'HTML', 'CSS', 'Microsoft Office', 'Problem Solving']
-
+let like = 0
 
 
 
@@ -80,4 +80,12 @@ const displaySkill = () => {
             document.querySelector('.reveal2').remove()
         }
     }
+}
+
+const displayLike = () => {
+    let likes = document.querySelector('#likePic')
+    likes.setAttribute('class', 'likeImg2')
+    like += 1
+    let likenum = document.querySelector(".likeNum")
+    likenum.innerHTML = like
 }

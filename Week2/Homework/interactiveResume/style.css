@@ -73,15 +73,41 @@ p {
     font-size: larger;
 }
 
+.secMid {
+    /* border: solid black; */
+    height:  4vh;
+    display: block;
+}
+
 .linkedIn {
     /* border: solid black; */
     height: 4vh;
+    width: 50%;
     display: flex;
 }
 
 .linkedIn img{
     height: 3vh;
     margin-left: 7px;
+}
+
+.like {
+    /* border: solid black; */
+    height: 4vh;
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+.likeImg {
+    height:2.8vh;
+    margin-left: 5px;
+    opacity: .5;
+}
+
+.likeImg2 {
+    height:2.8vh;
+    margin-left: 5px;
 }
 
 .experience {
