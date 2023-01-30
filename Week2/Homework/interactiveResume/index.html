@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Resume</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="left">
+            <img src="dargonleft.gif" alt="">
+            <img src="dargonleft.gif" alt="">
+            <img src="dargonleft.gif" alt="">
+        </div>
+
+        <div class="main">
+
+            <div class="sec1">
+                <div class="image">
+                    <img class="mePic" onclick="changeImage('isaac.jpeg')" src="anonymous.jpg" alt="">
+                </div>
+                <div class="intro">
+                    <h1>Isaac Dong</h1>
+                    <p>Incoming Software Engineer at {Your Company Here}. Can work collaboratively on any project and have the ability to manage projects independently.</p>
+                    
+                    <br>
+                    <br>
+
+                    <div class="linkedIn">
+                        <div>View My </div>
+                        <div><a href="https://www.linkedin.com/in/isaac-dong/"><img src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-logo-png-transparent.png" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Work Experience</h2>
+            <div class="experience">
+                <img id="work1" class="workImg" onclick="displayWork()" src="work.jpg" alt="">
+            </div>
+
+            <h2>Education</h2>
+            <div class="education">
+                <img id="edu1" class="eduImg" onclick="displayEdu()" src="rotunda.jpg" alt="">
+            </div>
+
+            <h2>Additional Skills</h2>
+            <div class="skills">
+                <img id="skill1" class="skillImg" onclick="displaySkill()" src="skills.jpg" alt="">
+            </div>
+
+
+        </div>
+
+        <div class="right">
+            <img src="dragonright.gif" alt="">
+            <img src="dragonright.gif" alt="">
+            <img src="dragonright.gif" alt="">
+        </div>
+  
+        <script src="app.js"></script>
+    </body>
+</html>
