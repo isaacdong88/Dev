@@ -121,13 +121,17 @@ function multiplyArray (arr) {
 
 // Problem 6: Define a function, as a function expression, numArgs that returns the number of arguments passed to the function when called.
 
-function numArgs() {
-    return arguments.length
+// function numArgs() {
+//     return arguments.length
+// }
+
+const numArgs = (...args) => {
+    return args.length
 }
 
-// console.log(numArgs(2,3,5))
-// console.log(numArgs(2,'1','b',3))
-// console.log(numArgs(2,3,[2,3],1))
+console.log(numArgs(2,3,5))
+console.log(numArgs(2,'1','b',3))
+console.log(numArgs(2,3,[2,3],1))
 
 
 
@@ -178,4 +182,4 @@ function stringsLongerThan (arr,num) {
     return longStr
 }
 
-console.log(stringsLongerThan(['happy','sad','four','ate'],3))
+// console.log(stringsLongerThan(['happy','sad','four','ate'],3))
