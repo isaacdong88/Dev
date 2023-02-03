@@ -129,9 +129,9 @@ const numArgs = (...args) => {
     return args.length
 }
 
-console.log(numArgs(2,3,5))
-console.log(numArgs(2,'1','b',3))
-console.log(numArgs(2,3,[2,3],1))
+// console.log(numArgs(2,3,5))
+// console.log(numArgs(2,'1','b',3))
+// console.log(numArgs(2,3,[2,3],1))
 
 
 
@@ -183,3 +183,4 @@ function stringsLongerThan (arr,num) {
 }
 
 // console.log(stringsLongerThan(['happy','sad','four','ate'],3))
+// console.log(stringsLongerThan(['happy','sad','four','ate'],4))
