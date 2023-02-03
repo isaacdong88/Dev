@@ -1,0 +1,192 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.mainCal {
+    border: solid black;
+    height: 63vh;
+    width: 500px;
+    display: block;
+    background-color: rgb(65, 142, 236);
+}
+
+.screen {
+    border: solid black;
+    height: 14vh;
+    width: 92%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5%;
+    background-color: rgb(105, 168, 245);
+}
+
+.displayScreen {
+    /* border: solid black; */
+    height: 5vh;
+    font-size: 23px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding-right: 5px;
+}
+
+.displayResult {
+    /* border: solid black; */
+    height: 9vh;
+    font-size: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    padding-right: 5px;
+}
+
+.row1 {
+    /* border: solid black; */
+    height: 9vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.row2 {
+    /* border: solid black; */
+    height: 9vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.row3 {
+    /* border: solid black; */
+    height: 9vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.row4 {
+    /* border: solid black; */
+    height: 9vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.row5 {
+    /* border: solid black; */
+    height: 9vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.num {
+    border: solid black;
+    height: 6vh;
+    width: 15%;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(101, 190, 249);
+}
+
+.num:hover {
+    border: solid black;
+    height: 6vh;
+    width: 15%;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(36, 164, 249);
+}
+
+.back, .dot {
+    border: solid black;
+    height: 6vh;
+    width: 15%;
+    font-size: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 94, 67);
+}
+
+.back:hover, .dot:hover {
+    border: solid black;
+    height: 6vh;
+    width: 15%;
+    font-size: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(212, 42, 4);
+}
+
+.clear, .equal {
+    border: solid black;
+    height: 6vh;
+    width: 45%;
+    font-size: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 128, 111);
+}
+
+.clear:hover, .equal:hover {
+    border: solid black;
+    height: 6vh;
+    width: 45%;
+    font-size: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 67, 43);
+}
+
+.operator {
+    border: solid black;
+    height: 6vh;
+    width: 15%;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 154, 116);
+}
+
+.operator:hover {
+    border: solid black;
+    height: 6vh;
+    width: 15%;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 109, 42);
+}
