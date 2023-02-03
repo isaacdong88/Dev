@@ -6,8 +6,34 @@ let result = 0 //have a function inisde equal button that look to see if result 
 //function for the displaying the entered numbers
 const displayNum = (num) => {
     let screen = document.querySelector('.displayScreen')
-    screen.append(num)
-    let current = document.querySelector('.displayScreen')
+    //won't allow user to enter consecutive . if it follows another . or = sign
+    if (num === '.' && screen.innerHTML[screen.innerHTML.length-1] !== '.' && screen.innerHTML[screen.innerHTML.length-1] !== '=') {
+        screen.append(num)
+    } else {
+        if (num !== '.') {
+            screen.append(num)
+        } else {    //this condition allows user to take the result add it as a decimal number to another number
+            // if (screen.innerHTML.indexOf('.') === -1 && screen.innerHTML.indexOf(operation) === -1) need to keep testing
+                if (num === '.' && screen.innerHTML[screen.innerHTML.length-1] !== '.') {
+                    screen.innerHTML = ''
+                    screen.append(result+num)
+                    result = 0
+                    nums = []
+                    //Reset result display screen
+                    let resultDisplay = document.querySelector('.displayResult')
+                    resultDisplay.innerHTML = ''
+                }
+            // screen.innerHTML = ''
+            // screen.append(result+num)
+            // result = 0
+            // nums = []
+            // //Reset result display screen
+            // let resultDisplay = document.querySelector('.displayResult')
+            // resultDisplay.innerHTML = ''
+        }
+    }
+    // let current = document.querySelector('.displayScreen')
+
 }
 
 //function to display the operation
