@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lego Stores</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- Nav Bar Div -->
+        <div class="navBar">
+
+            <div class="pages">
+                <button class="pagesbut">SHOP</button>
+                <button class="pagesbut">DISCOVER</button>
+            </div>
+
+
+            <div class="logo">
+                <img src="toystory.png" alt="">
+            </div>
+
+            <div class="icons">
+                <div class="searchbar">
+                    <form action="https://www.shopdisney.com/buzz-lightyear-action-figure-toy-story-4-pixar-toybox-461011290956.html?isProductSearch=0&plpPosition=62" class="searchbar">
+                        <input class="yellowsearch" type="text" placeholder="Search Store">
+                    </form>
+
+                    <div class="searchpicmain">
+                        <img class="searchpic" src="searchicon.png" alt="">
+                    </div>
+                </div>
+
+                <div class="iconcontainer">
+                    <img src="hearticon.png" alt="" class="heart">
+                </div>
+                
+                <div class="iconcontainer">
+                    <img src="bagicon.png" alt="" class="bag">
+                    <div class="cart">0</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background div then message div -->
+        <div class="background">
+            <img src="toybackground.webp" alt="">
+            <div class="message">
+                <h2>Toy Story</h2>
+                <p>Take adventure to infinity & beyond with toys, clothing, accessories, action figures & more featuring Buzz, Woody & the whole Toy Story gang.</p> 
+            </div>
+        </div>
+
+        <!-- Toys Div -->
+        <div class="toys">
+            <h2>Toys Just For You</h2>
+            <div class="row1t">
+                <div class="items">
+                    <img class="itemimg" id="Woody" onmouseover="onHover('Woody')" src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6103036514494?fmt=webp&qlt=70&wid=1536&hei=1536" alt="">
+                    <div class="titles">
+                        <span class="header">Woody Marionette - Toy Story</span>
+                        <p class="price">$49.99</p>
+                    </div>
+                    <div class="sell">
+                        <div class="promo" onclick="cartClick()">Add New</div>
+                    </div>
+                </div>    
+
+                <div class="items">
+                    <img class="itemimg" id="Jessie" onmouseover="onHover('Jessie')" src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6103036514493?fmt=webp&qlt=70&wid=1536&hei=1536" alt="">
+                    <div class="titles">
+                        <span class="header">Jessie Marionette - Toy Story</span>
+                        <p class="price">$49.99</p>
+                    </div>
+                    <div class="sell">
+                        <div class="promo" onclick="cartClick()">Add New</div>
+                    </div>
+                </div>
+                
+                <div class="items">
+                    <img class="itemimg" id="Buzz" onmouseover="onHover('Buzz')" src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6101047623694?fmt=webp&qlt=70&wid=1536&hei=1536" alt="">
+                    <div class="titles">
+                        <span class="header">Buzz Lightyear Action Figure - Toy Story</span>
+                        <p class="price">$32.99</p>
+                    </div>
+                    <div class="sell">
+                        <div class="promo" onclick="cartClick()">Add New</div>
+                    </div>
+                </div>   
+
+
+            </div>
+
+        </div>
+
+        <!-- Clothes Div -->
+        <div class="clothes">
+            <h2>Clothes Just For You</h2>
+            <div class="row1c">
+                <div class="items">
+                    <img class="itemimg" id="WoodyCust" onmouseover="onHover('WoodyCust')" src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2890040739144-1?fmt=webp&qlt=70&wid=1536&hei=1536" alt="">
+                    <div class="titles">
+                        <span class="header">Woody Costume for Kids - Toy Story</span>
+                        <p class="price">$49.99</p>
+                    </div>
+                    <div class="sell">
+                        <div class="promo" onclick="cartClick()">Add New</div>
+                    </div>
+                </div>  
+
+                <div class="items">
+                    <img class="itemimg" id="CustSet" onmouseover="onHover('CustSet')" src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2890041619241?fmt=webp&qlt=70&wid=2000&hei=2000" alt="">
+                    <div class="titles">
+                        <span class="header">Kids Costume Set - Toy Story</span>
+                        <p class="price">$149.99</p>
+                    </div>
+                    <div class="sell">
+                        <div class="promo" onclick="cartClick()">Add New</div>
+                    </div>
+                </div>  
+
+                <div class="items">
+                    <img class="itemimg" id="JessieCust" onmouseover="onHover('JessieCust')" src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841040739143-1?fmt=webp&qlt=70&wid=2000&hei=2000" alt="">
+                    <div class="titles">
+                        <span class="header">Jessie Costume for Kids - Toy Story</span>
+                        <p class="price">$49.99</p>
+                    </div>
+                    <div class="sell">
+                        <div class="promo" onclick="cartClick()">Add New</div>
+                    </div>
+                </div>  
+      
+            </div>
+
+        </div>
+
+        <!-- Background Footer Div -->
+        <div class="background">
+            <img src="https://a-static.besthdwallpaper.com/to-infinity-and-beyond-wallpaper-1920x1080-30430_48.jpg" alt="">
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
