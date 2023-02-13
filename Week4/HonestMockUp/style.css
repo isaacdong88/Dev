@@ -1,0 +1,53 @@
+.topCaro {
+    border: solid black;
+    height: 45px;
+    display: flex;
+}
+
+.left, .right {
+    border: solid black;
+    width: 30%;
+
+}
+
+.mid {
+    border: solid black;
+    width: 40%;
+}
+
+.navbar {
+    border: solid black;
+    height: 90px;
+    display: flex;
+}
+
+.iconContainer {
+    height: 40%;
+}
+
+.icon {
+    height: 100%;
+}
+
+.optionContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.smFilter {
+    display: flex;
+}
+
+.topContainer {
+    border: solid black;
+    height: 72vh;
+}
+
+.imageContainer {
+    border: solid black;
+}
+
+.alba {
+    width: 100%;
+}
