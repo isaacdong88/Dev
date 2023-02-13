@@ -250,12 +250,12 @@ a:hover {
     background-size:cover;
 }
 
-.storepic {
+/* .storepic {
     height: 44vh;
     position:absolute;
     z-index: -1;
     width: 100%;
-}
+} */
 
 .form {
     /* border: solid black; */
