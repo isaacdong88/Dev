@@ -1,0 +1,40 @@
+.broadcast {
+    display: flex;
+}
+
+.screen {
+    /* border: solid black; */
+    height: 40vh;
+    width: 40%;
+}
+
+.screen img {
+    height: 40vh;
+    width: 100%;
+}
+
+.mapimg {
+    /* border: solid black; */
+    height: 40vh;
+    width: 30%;
+}
+
+.mapPic{
+    /* border: solid black; */
+    height: 40vh;
+    width: 100%;
+
+}
+
+.summary {
+    border: double black;
+    margin-top: 10px;
+    width: 35%;
+    text-align: center;
+    font-size: larger;
+}
+
+body {
+    background-color: black;
+    color: azure;
+}
