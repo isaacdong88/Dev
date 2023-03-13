@@ -1,0 +1,109 @@
+body {
+  background-image: url("https://images.hdqwalls.com/download/white-cube-pattern-4k-bu-1280x1024.jpg");
+  background-size: cover;
+}
+
+.App {
+  /* border: solid red; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.display {
+  border: solid black;
+  height: 600px;
+  width: 900px;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.images {
+  /* border: solid red; */
+  height: 100%;
+  width: 600px;
+}
+
+.links {
+  /* border: solid green; */
+  height: 100%;
+  width: 300px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.links div {
+  /* border: solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.links1 {
+  height: 50px;
+}
+
+.links2 {
+  /* border: red solid; */
+  font-size: 16px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.links3 {
+  /* border: solid violet; */
+  height: 100px;
+  margin-top: 15px;
+  font-size: 17px;
+}
+
+.images img {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
