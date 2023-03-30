@@ -12,7 +12,8 @@ app.engine("madeline", (filePath, options, callback) => {
       .toString()
       .replace("#title#", "<title>" + options.title + "</title>")
       .replace("#message#", "<h1>" + options.message + "</h1>")
-      .replace("#content#", "<div>" + options.content + "</div>");
+      .replace("#content#", "<div>" + options.content + "</div>")
+      .replace("#image#", "<img src=" + options.image + "/>");
     return callback(null, rendered);
   });
 });
@@ -98,10 +99,12 @@ app.get("/money2", (req, res) => {
 });
 
 app.get("/Kobe", (req, res) => {
-  res.render("template2", {
+  res.render("template", {
     title: "Mamba",
     message: "Message from Kobe",
     content: "Dedication sees dreams come true.",
+    image:
+      "https://image.cnbcfm.com/api/v1/image/105464942-1537556383277gettyimages-102183935.jpeg?v=1566579981",
   });
 });
 
