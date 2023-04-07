@@ -63,6 +63,19 @@ app.delete("/logs/:id", (req, res) => {
   });
 });
 
+app.get("/logs/:id/edit", (req, res) => {
+  Log.findById(req.params.id, (err, foundLog) => {
+    //find the fruit
+    if (!err) {
+      res.render("Edit", {
+        log: foundLog, //pass in the found fruit so we can prefill the form
+      });
+    } else {
+      res.send({ msg: err.message });
+    }
+  });
+});
+
 app.get("/logs/:id", (req, res) => {
   Log.findById(req.params.id, (err, foundLog) => {
     res.render("Show", { log: foundLog });
