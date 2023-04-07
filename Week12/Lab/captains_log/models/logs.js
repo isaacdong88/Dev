@@ -9,6 +9,6 @@ const logsSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const Fruit = mongoose.model("Fruit", fruitSchema);
+const Log = mongoose.model("Log", logsSchema);
 
-module.exports = Fruit;
+module.exports = Log;
