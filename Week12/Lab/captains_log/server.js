@@ -76,6 +76,18 @@ app.get("/logs/:id/edit", (req, res) => {
   });
 });
 
+app.put("/logs/:id", (req, res) => {
+  if (req.body.shipIsBroken === "on") {
+    req.body.shipIsBroken = true;
+  } else {
+    req.body.shipIsBroken = false;
+  }
+  Log.findByIdAndUpdate(req.params.id, req.body, (err, updatedLog) => {
+    console.log(updatedLog);
+    res.redirect(`/logs/${req.params.id}`);
+  });
+});
+
 app.get("/logs/:id", (req, res) => {
   Log.findById(req.params.id, (err, foundLog) => {
     res.render("Show", { log: foundLog });

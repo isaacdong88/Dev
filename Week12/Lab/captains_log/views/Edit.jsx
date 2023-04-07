@@ -8,10 +8,10 @@ class Edit extends React.Component{
      {/* See the Layout takes in a prop called Title and we pass Edit Page to it  note: comments can't go first or last in  jsx return*/}
           {/* form is not complete we will do that below*/}
       <form action={`/logs/${this.props.log.id}?_method=PUT`} method="POST">
-          Title: <input type="text" name="name" defaultValue={this.props.log.title}/><br/>
-          Entry: <input type="text" name="color"  defaultValue={this.props.log.entry}/><br/>
+          Title: <input type="text" name="title" defaultValue={this.props.log.title}/><br/>
+          Entry: <input type="text" name="entry"  defaultValue={this.props.log.entry}/><br/>
           Is Ship Broken:
-              { this.props.log.shipIsBroken? <input type="checkbox" name="readyToEat" defaultChecked />: <input type="checkbox" name="readyToEat"/> }
+              { this.props.log.shipIsBroken? <input type="checkbox" name="shipIsBroken" defaultChecked />: <input type="checkbox" name="readyToEat"/> }
           <br/>
           <input type="submit" value="Submit Changes"/>
       </form>
