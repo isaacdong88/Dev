@@ -30,6 +30,12 @@ app.get("/logs/new", (req, res) => {
   res.render("New");
 });
 
+app.get("/logs", (req, res) => {
+  Log.find({}, (error, allLogs) => {
+    res.render("Index", { logs: allLogs });
+  });
+});
+
 //create route
 app.post("/logs", (req, res) => {
   if (req.body.shipIsBroken === "on") {
@@ -42,13 +48,25 @@ app.post("/logs", (req, res) => {
   //   res.send(req.body);
   Log.create(req.body, (error, createdLog) => {
     // res.send(createdLog);
-    res.redirect("/logs/new");
+    res.redirect("/logs");
   });
 
   //   fruits.push(req.body);
   //   console.log(fruits);
   //   res.send("data received");
   //   res.redirect("/fruits");
+});
+//delete log
+app.delete("/logs/:id", (req, res) => {
+  Log.findByIdAndRemove(req.params.id, (err, data) => {
+    res.redirect("/logs"); //redirect back to fruits index
+  });
+});
+
+app.get("/logs/:id", (req, res) => {
+  Log.findById(req.params.id, (err, foundLog) => {
+    res.render("Show", { log: foundLog });
+  });
 });
 
 app.listen(PORT, () => {
